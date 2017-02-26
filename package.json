@@ -1,0 +1,25 @@
+{
+  "name": "crawler-base",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node schedule.js",
+    "node-debug": "node-debug schedule.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^0.22.0",
+    "log4js": "^1.1.0",
+    "moment": "^2.17.1",
+    "mongodb": "^2.2.24",
+    "mysql": "^2.13.0",
+    "node-schedule": "^1.2.0",
+    "request": "^2.79.0",
+    "request-promise": "^4.1.1",
+    "superagent": "^3.4.4",
+    "superagent-charset": "^1.1.1"
+  }
+}

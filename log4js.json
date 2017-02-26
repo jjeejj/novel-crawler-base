@@ -1,0 +1,19 @@
+{
+    "appenders":[
+        {
+            "type":"console",
+            "category":"console"
+        },
+        {
+            "type":"dateFile",
+            "filename":"logs/access.log",
+            "pattern":"-yyyy-MM-dd",
+            "alwaysIncludePattern":false,
+            "category": "dateFile"
+        }
+    ],
+    "levels":{
+        "dateFile":"DEBUG"
+    },
+    "replaceConsole":true
+}
